@@ -126,6 +126,59 @@ button {
 }
 
 
+/* Offer Section Code */
+
+.offer-section {
+    background: rgb(0, 212, 255);
+    background: linear-gradient(318deg, rgba(0, 212, 255, 1) 3%, rgba(0, 203, 186, 1) 68%);
+}
+
+.offer-section p {
+    margin-bottom: 0;
+}
+
+.offer-section .tittle {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 3%;
+    letter-spacing: 2px;
+    padding-bottom: 1%;
+}
+
+.offer-section .subtittle {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.offer-section .termsandconds {
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.9rem;
+    padding-bottom: 1%;
+}
+
+.flex-offer-food {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-offer-food div img {
+    height: 200px;
+    width: 300px;
+}
+
+.terms {
+    color: #EEEEEE;
+}
+
+
 /* Footer Code */
 
 .footer {

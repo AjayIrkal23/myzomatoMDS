@@ -170,6 +170,46 @@ button {
 }
 
 
+/* first oder section */
+
+.top-sec-bggrey .brand-tittle {
+    letter-spacing: 1px;
+}
+
+.branditems:hover {
+    transform: scale(1.1)
+}
+
+.top-sec-bggrey {
+    background: rgb(230, 228, 228);
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 1%;
+}
+
+.top-sec-bggrey .top-brands-for-you {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    align-items: center;
+    padding: 0;
+}
+
+.top-sec-bggrey .branditems img {
+    border-radius: 100%;
+    height: 150px;
+    box-shadow: 2px 2px 5px grey;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+
+.top-sec-bggrey .top-brands-for-you a {
+    text-decoration: none;
+    color: black;
+}
+
+
 /* Offer Section Code */
 
 .offer-section {

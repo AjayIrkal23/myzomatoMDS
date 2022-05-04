@@ -107,17 +107,17 @@ button {
         display: none;
     }
     .brand-text {
-        color: black;
+        color: white;
         font-size: 25px;
         padding: 0;
         margin: 0;
         letter-spacing: 0.3px;
     }
     .brand-text:hover {
-        color: white;
+        color: #0dcaf0;
     }
     .active:hover {
-        color: white;
+        color: #0dcaf0;
     }
     .navbar-brand {
         margin: 0;
@@ -134,18 +134,18 @@ button {
 
 @media (max-width: 470px) {
     .brand-text .fa-solid {
-        font-size: 20px;
+        font-size: 5vw;
     }
     .brand-text {
-        color: black;
-        font-size: 15px;
+        color: white;
+        font-size: 5vw;
         padding: 0;
         margin: 0;
         letter-spacing: 0.3px;
     }
     .nav-item .nav-link {
         font-weight: 400;
-        font-size: 14px;
+        font-size: 15px;
     }
 }
 
@@ -189,6 +189,27 @@ button {
     text-decoration: none;
 }
 
+@media (max-width: 470px) {
+    .body-tittle .tittle {
+        color: white;
+        font-size: 1.3rem;
+        margin-top: 5%;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 1px;
+        margin-bottom: 0;
+    }
+    .subtittle {
+        color: #EEEEEE;
+        font-size: 0.8rem;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 500;
+        letter-spacing: 1.2px;
+    }
+    .input-group {
+        width: 90%
+    }
+}
+
 
 /* top picks code */
 
@@ -200,7 +221,7 @@ button {
     font-family: 'Oswald', sans-serif;
     font-size: 2rem;
     padding-top: 1%;
-    padding-left: 3%;
+    text-align: center;
 }
 
 .branditems a {
@@ -212,7 +233,7 @@ button {
     margin-bottom: 0;
 }
 
-.top-brands-for-you {
+.top-tittle .top-brands-for-you {
     display: flex;
     justify-content: flex-start;
     text-align: center;
@@ -238,6 +259,12 @@ button {
     font-family: 'Ubuntu', sans-serif;
 }
 
+@media (max-width: 470px) {
+    .brand-tittle {
+        text-align: center;
+    }
+}
+
 
 /* first oder section */
 
@@ -256,11 +283,14 @@ button {
     padding-bottom: 1%;
 }
 
+.top-sec-bggrey {
+    overflow: hidden;
+}
+
 .top-sec-bggrey .top-brands-for-you {
     display: flex;
     justify-content: center;
     text-align: center;
-    overflow: hidden;
     align-items: center;
     padding: 0;
 }
@@ -276,6 +306,12 @@ button {
 .top-sec-bggrey .top-brands-for-you a {
     text-decoration: none;
     color: black;
+}
+
+@media (max-width: 970px) {
+    .top-sec-bggrey {
+        overflow: scroll;
+    }
 }
 
 
@@ -332,6 +368,55 @@ button {
 
 .terms {
     color: #EEEEEE;
+}
+
+@media (max-width: 972px) {
+    .offer-section .tittle {
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 3%;
+        letter-spacing: 2px;
+        padding-bottom: 1%;
+    }
+    .offer-section .subtittle {
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1rem;
+        line-height: 1.5;
+        text-align: center;
+        padding-bottom: 1%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .offer-section .termsandconds {
+        color: #EEEEEE;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 0.7rem;
+        padding-bottom: 1%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 1012px) {
+    .food3 {
+        display: none;
+    }
+}
+
+@media (max-width: 760px) {
+    .food2 {
+        display: none;
+    }
+}
+
+@media (max-width: 506px) {
+    .food1 {
+        display: none;
+    }
 }
 
 

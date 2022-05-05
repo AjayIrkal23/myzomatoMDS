@@ -34,14 +34,97 @@
                     <ul class="navbar-nav">
                         <Center>
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">
-                                    <i class="fa-solid fa-arrow-right-to-bracket"></i>Login
-                                </a>
+                                <div class="d-grid gap-2 col-3 m0x-auto margin-bottom">
+                                    <p type="button" class="btn btn-outline-info " data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                                        <i class="fa-solid fa-arrow-right-to-bracket"></i> Login!</p>
+                                </div>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Login Now</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="logintittle">
+
+                                                    <div class="input-group mb-3">
+                                                        <input type="text" class="form-control" placeholder="Username/Email" aria-label="Username" aria-describedby="basic-addon1">
+                                                    </div>
+
+                                                    <div class="input-group mb-3">
+                                                        <input type="text" class="form-control" placeholder="Password" aria-label="Recipient's username" aria-describedby="basic-addon2">
+
+                                                    </div>
+                                                    <div class="input-group mb-3">
+                                                        <p class="loginwith">Or Login With </p>
+                                                        <div class="login-flex">
+                                                            <div>
+                                                                <a href=""><img class="google-login" src="https://cdn.freebiesupply.com/logos/large/2x/facebook-3-logo-png-transparent.png" alt=""></a>
+                                                                <a href=""> <img class="google-login" src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png" alt=""></a>
+                                                                <a href=""><img class="twitter-login" src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" alt=""></a>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+
+                                                <button type="button" class="btn btn-primary">Login</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#">
-                                    <i class="fa-solid fa-square-plus"></i> Signup Here!
-                                </a>
+                                <div class="d-grid gap-2 col-3 m0x-auto signup">
+
+                                    <p type="button" class="btn btn-outline-info " data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                                        <i class="fa-solid fa-arrow-right-to-bracket"></i>Sign!</button>
+                                    </p>
+                                </div>
+                                <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Register Now</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="logintittle">
+
+                                                    <div class="input-group mb-3">
+                                                        <input type="text" class="form-control" placeholder="Username/Email" aria-label="Username" aria-describedby="basic-addon1">
+                                                    </div>
+
+                                                    <div class="input-group mb-3">
+                                                        <input type="text" class="form-control" placeholder="Password" aria-label="Recipient's username" aria-describedby="basic-addon2">
+
+                                                    </div>
+                                                    <div class="input-group mb-3">
+                                                        <p class="loginwith">Or Register With </p>
+                                                        <div class="login-flex">
+                                                            <div>
+                                                                <a href=""><img class="google-login" src="https://cdn.freebiesupply.com/logos/large/2x/facebook-3-logo-png-transparent.png" alt=""></a>
+                                                                <a href=""> <img class="google-login" src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png" alt=""></a>
+                                                                <a href=""><img class="twitter-login" src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" alt=""></a>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+
+                                                <button type="button" class="btn btn-primary">Register</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
                             </li>
 
                             <li class="nav-item dropdown">
@@ -78,13 +161,98 @@
                 </ul>
             </div>
             <div class="flexitems  div-inline ">
+                <!-- Button trigger modal -->
                 <div class="d-grid gap-2 col-3 m0x-auto">
-                    <button class="btn  btn-outline-info btn-sm login-button "><i class="fa-solid fa-arrow-right-to-bracket"></i> Login Here!</button>
+                    <button type="button" class="btn btn-outline-info btn-sm login-button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="fa-solid fa-arrow-right-to-bracket"></i> Login Here!</button>
                 </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Login Now</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="logintittle">
+
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Username/Email" aria-label="Username" aria-describedby="basic-addon1">
+                                    </div>
+
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Password" aria-label="Recipient's username" aria-describedby="basic-addon2">
+
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <p class="loginwith">Or Login With </p>
+                                        <div class="login-flex">
+                                            <div>
+                                                <a href=""><img class="google-login" src="https://cdn.freebiesupply.com/logos/large/2x/facebook-3-logo-png-transparent.png" alt=""></a>
+                                                <a href=""> <img class="google-login" src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png" alt=""></a>
+                                                <a href=""><img class="twitter-login" src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" alt=""></a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+
+                                <button type="button" class="btn btn-primary">Login</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="d-grid gap-2 col-3 m0x-auto signup">
-                    <button type="button" class="btn  btn-outline-info btn-sm"> <i class="fa-solid fa-square-plus"></i> Signup Here!</button>
+
+                    <button type="button" class="btn btn-outline-info btn-sm login-button" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                        <i class="fa-solid fa-square-plus"></i> Signup Here!</button>
                 </div>
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Register Now</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="logintittle">
+
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Username/Email" aria-label="Username" aria-describedby="basic-addon1">
+                                    </div>
+
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Password" aria-label="Recipient's username" aria-describedby="basic-addon2">
+
+                                    </div>
+                                    <div class="input-group mb-3">
+                                        <p class="loginwith">Or Resgister With </p>
+                                        <div class="login-flex">
+                                            <div>
+                                                <a href=""><img class="google-login" src="https://cdn.freebiesupply.com/logos/large/2x/facebook-3-logo-png-transparent.png" alt=""></a>
+                                                <a href=""> <img class="google-login" src="https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png" alt=""></a>
+                                                <a href=""><img class="twitter-login" src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png" alt=""></a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+
+                                <button type="button" class="btn btn-primary">Register</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+        </div>
         </div>
         <!-- Header-body -->
         <div class="flex-body">
@@ -342,16 +510,6 @@
                 </div>
             </div>
         </div>
-        <p>
-            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-              Link with href
-            </a>
-        </p>
-        <div class="collapse" id="collapseExample">
-            <div class="card card-body">
-                Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-            </div>
-        </div>
 
         <div class=" footer2">
             <div class="first-item">
@@ -363,15 +521,15 @@
             <div>
                 <a href=""><i class="fa-brands fa-twitter-square"></i></i></a>
             </div>
-            <p class="flex-end-copyright">
-                &copy; Ajay Irkal@Mercy
-                <p>
-
-
-
-
-
         </div>
+        <div class=" footer3">
+            <div class="">
+                <p class="flex-end-copyright">
+                    &copy; Ajay Irkal@Mercy
+                    <p>
+            </div>
+        </div>
+
 
     </footer>
 </body>

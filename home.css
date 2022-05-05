@@ -32,6 +32,10 @@ header {
     margin-right: 1%;
 }
 
+.signup {
+    margin-right: 5px;
+}
+
 .brand-text {
     text-decoration: none;
     color: white;
@@ -341,7 +345,7 @@ button {
 }
 
 @media (max-width: 970px) {
-    .top-sec-bggrey {
+    .top-sec-bggrey .top-brands-for-you {
         overflow: scroll;
     }
 }
@@ -504,6 +508,7 @@ button {
     display: flex;
     flex: 25%;
     background-color: #2E3333;
+    justify-content: center;
 }
 
 .footer2 div {
@@ -522,7 +527,6 @@ button {
 }
 
 .first-item {
-    margin-left: 130px;
     margin-bottom: 1%;
 }
 
@@ -531,6 +535,16 @@ button {
     flex: 25%;
     background-color: #2E3333;
     justify-content: center;
+}
+
+@media (max-width: 970px) {
+    .footer {
+        display: none;
+    }
+    .first-item {
+        margin-left: 0px;
+        margin-bottom: 1%;
+    }
 }
 
 .flex-end-copyright {
